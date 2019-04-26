@@ -126,7 +126,7 @@ int changeDir(int argc, char* argv[]) {
 	// Go path
 	else {
 		if (chdir(argv[1]) != 0) {
-			fprintf(stderr, "Unvalid path\n");
+			fprintf(stderr, "Invalid path\n");
 			return -1;
 		}
 		// Copy the path
