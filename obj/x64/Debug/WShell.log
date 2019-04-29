@@ -1,0 +1,22 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.56.101'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  excute.c
+C:\Users\hacel\source\repos\Project1\WShell\excute.c(66,7): warning : implicit declaration of function ‘changeDir’ [-Wimplicit-function-declaration]
+C:\Users\hacel\source\repos\Project1\WShell\excute.c(66,7): warning :    if (changeDir(argc, argv) != 0) return -1;
+C:\Users\hacel\source\repos\Project1\WShell\excute.c(66,7): warning :        ^~~~~~~~~
+  parser.c
+  wonShell.c
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,7): warning : implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,7): warning :    if (gets(args) == NULL) {
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,7): warning :        ^~~~
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,7): warning :        fgets
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,18): warning : comparison between pointer and integer
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,18): warning :    if (gets(args) == NULL) {
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17,18): warning :                   ^~
+  Linking objects
+C:\Users\hacel\source\repos\Project1\WShell\obj\x64\Debug\wonShell.o : error : In function `main':
+C:\Users\hacel\source\repos\Project1\WShell\wonShell.c(17): warning : the `gets' function is dangerous and should not be used.
+  WShell.vcxproj -> C:\Users\hacel\source\repos\Project1\WShell\bin\x64\Debug\WShell.out

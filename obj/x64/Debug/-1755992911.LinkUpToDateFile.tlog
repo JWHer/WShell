@@ -1,0 +1,1 @@
+g++ -o "/home/hacel/projects/WShell/bin/x64/Debug/WShell.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/hacel/projects/WShell/obj/x64/Debug/excute.o /home/hacel/projects/WShell/obj/x64/Debug/parser.o /home/hacel/projects/WShell/obj/x64/Debug/wonShell.o

@@ -151,7 +151,7 @@ void prompt()
 	else
 		printf("%s", path);
 
-	printf("$wsh>");
+	printf("> wsh$ ");
 }
 
 void setWait(int nw) {
